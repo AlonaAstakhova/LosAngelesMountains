@@ -76,7 +76,7 @@ body {
     url('images/main.png');
   background-repeat: no-repeat;
   background-size: 24%, cover;
-  background-position: 61% 19.5%, top;
+  background-position: 60% 34%, top;
   padding: 241px 593px 441px 413px;
 
   &::before {
@@ -322,6 +322,24 @@ p {
   font-size: 12px;
   font-weight: 700;
   font-style: italic;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    max-width: 937px;
+  }
+  .main {
+    background-position: 60% 29%, top;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 937px;
+  }
+  .main {
+    background-position: 60% 24.5%, top;
+  }
 }
 
 @media (max-width: 1200px) {
